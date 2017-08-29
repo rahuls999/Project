@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form>
+<div class="form-group">
+ <label for="UserName">Enter Username:</label>
+<input type="text" ng-model="user.userName" placeholder="enter username" class="form-control">
+ <label for="password">Enter Password:</label>
+<input type="password" ng-model="user.password" placeholder="enter password" class="form-control" >
+</div>
+
+<input type="submit" value="login" ng-click="login()">
+
+</form>
+</body>
+</html>
